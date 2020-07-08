@@ -1,0 +1,30 @@
+{
+  "name": "node-auth1-project",
+  "version": "1.0.0",
+  "description": "- Authentication.\r - Express Middleware.\r - Password Hashing.\r - Sessions\r - Cookies",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eloy2/node-auth1-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eloy2/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/Eloy2/node-auth1-project#readme",
+  "dependencies": {
+    "connect-session-knex": "^1.7.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "knex": "^0.21.1",
+    "node": "^14.5.0",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
+  }
+}
